@@ -3,7 +3,7 @@ export default function Footer() {
     <footer className="bg-blue-950 text-white p-12">
       <div className="grid md:grid-cols-3 gap-6">
         <div>
-          <h3 className="font-bold text-lg">Tech Mahindra</h3>
+          <h3 className="font-bold text-lg">SaaScraft</h3>
         </div>
 
         <div>
@@ -17,7 +17,7 @@ export default function Footer() {
         </div>
       </div>
 
-      <p className="text-xs mt-6">© 2026 Tech Mahindra</p>
+      <p className="text-xs mt-6">© 2026 SaaScraft</p>
     </footer>
   )
 }

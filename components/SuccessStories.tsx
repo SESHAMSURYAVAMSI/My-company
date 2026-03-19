@@ -1,7 +1,7 @@
 import Image from 'next/image'
 
 export default function SuccessStories() {
-  const data = ['success1.jpg', 'success2.jpg', 'success3.jpg', 'success4.jpg']
+  const data = ['Saas1.jpg', 'success2.jpg', 'success3.jpg', 'success4.jpg']
 
   return (
     <section id="careers" className="p-12">

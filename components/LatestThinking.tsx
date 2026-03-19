@@ -1,7 +1,7 @@
 import Image from 'next/image'
 
 const data = [
-  'thinking1.jpg',
+  'Saas1.jpg',
   'thinking2.jpg',
   'thinking3.jpg',
   'thinking4.jpg',
@@ -26,7 +26,7 @@ export default function LatestThinking() {
             />
 
             <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end p-4 text-white">
-              <p>Title here</p>
+              <p>Welcome to SaaScraft</p>
             </div>
           </div>
         ))}

@@ -16,7 +16,7 @@ export default function Thinkers() {
 
       {/* 👉 /public/images/thinker.jpg */}
       <Image
-        src="/images/thinker.jpg"
+        src="/images/Saas1.jpg"
         alt="thinker"
         width={400}
         height={400}

@@ -21,7 +21,7 @@ export default function Navbar() {
 
   return (
     <header className="sticky top-0 z-50 bg-white border-b px-10 py-4 flex justify-between items-center">
-      <h1 className="text-xl font-bold text-red-600">Tech Mahindra</h1>
+      <h1 className="text-xl font-bold text-red-600">SaaScraft</h1>
 
       <nav className="hidden md:flex gap-8 text-sm font-medium">
         {navItems.map((item) => (

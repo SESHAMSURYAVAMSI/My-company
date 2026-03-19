@@ -5,7 +5,7 @@ import 'swiper/css'
 import Image from 'next/image'
 
 export default function WhatsNew() {
-  const data = ['news1.jpg', 'news2.jpg', 'news3.jpg']
+  const data = ['Saas1.jpg', 'news2.jpg', 'news3.jpg']
 
   return (
     <section className="p-12 bg-gray-50">

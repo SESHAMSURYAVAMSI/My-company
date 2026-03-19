@@ -7,7 +7,7 @@ export default function Hero() {
   return (
     <section id="about" className="relative h-[85vh] text-white">
       {/* 👉 /public/images/hero.jpg */}
-      <Image src="/images/hero.jpg" alt="hero" fill className="object-cover" />
+      <Image src="/images/Saas1.jpg" alt="hero" fill className="object-cover" />
 
       <div className="absolute inset-0 bg-black/60" />
 

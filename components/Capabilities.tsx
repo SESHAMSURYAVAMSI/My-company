@@ -26,7 +26,7 @@ export default function Capabilities() {
 
       {/* 👉 /public/images/capability.jpg */}
       <Image
-        src="/images/capability.jpg"
+        src="/images/Saas1.jpg"
         alt=""
         width={400}
         height={400}
