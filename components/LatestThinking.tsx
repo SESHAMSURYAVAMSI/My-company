@@ -29,7 +29,7 @@ export default function LatestThinking() {
         {data.map((item, i) => (
           <div
             key={i}
-            className="relative overflow-hidden group cursor-pointer"
+            className="relative rounded-2xl overflow-hidden group cursor-pointer"
           >
             {/* IMAGE */}
             <Image
