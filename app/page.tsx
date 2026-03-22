@@ -6,7 +6,7 @@ import LatestThinking from '@/components/LatestThinking'
 import WhatsNew from '@/components/WhatsNew'
 import Capabilities from '@/components/Capabilities'
 import Industries from '@/components/Industries'
-import SuccessStories from '@/components/SuccessStories'
+import OnsiteStories from '@/components/OnsiteStories'
 import CTA from '@/components/CTA'
 import Footer from '@/components/Footer'
 
@@ -21,7 +21,7 @@ export default function Home() {
       <WhatsNew />
       <Capabilities />
       <Industries />
-      <SuccessStories />
+      <OnsiteStories />
       <CTA />
       <Footer />
     </main>
