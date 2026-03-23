@@ -37,7 +37,7 @@ export default function LatestThinking() {
             title="Building the AI-Driven Bank of Tomorrow"
             tag="RESEARCH REPORT | BANKING"
             image="/images/Saas1.jpg"
-            link="/insights/bank-ai"
+            link="https://example.com/news1"
             description="Global banks are operationalizing AI to modernize legacy systems and drive hyperpersonalization."
           />
 
@@ -45,7 +45,7 @@ export default function LatestThinking() {
             title="Ushering a New Era of Adaptive Manufacturing"
             tag="RESEARCH REPORT | MANUFACTURING"
             image="/images/Saas1.jpg"
-            link="/insights/manufacturing"
+            link="https://example.com/news1"
             description="Manufacturers are using AI to boost adaptability and sustainability."
           />
 
@@ -53,7 +53,7 @@ export default function LatestThinking() {
             title="Demystifying AI in Telecom"
             tag="WHITEPAPER"
             image="/images/Saas1.jpg"
-            link="/insights/telecom"
+            link="https://example.com/news1"
             description="Telecom providers are leveraging AI to optimize networks and improve CX."
           />
 
@@ -61,7 +61,7 @@ export default function LatestThinking() {
             title="Driving AI and Sustainability in Product Development"
             tag="WHITEPAPER | ENGINEERING"
             image="/images/Saas1.jpg"
-            link="/insights/ai-sustainability"
+            link="https://example.com/news1"
             description="AI is enabling smarter and more sustainable product lifecycles."
           />
 
@@ -70,7 +70,7 @@ export default function LatestThinking() {
             title="Unlocking Retail Innovation with Store of the Future"
             tag="RESEARCH REPORT | RETAIL"
             image="/images/Saas1.jpg"
-            link="/insights/retail"
+            link="https://example.com/news1"
             description="Retailers are transforming stores into intelligent experience hubs."
           />
 
@@ -78,7 +78,7 @@ export default function LatestThinking() {
             title="Enabling Execution Excellence with Next-Gen GCCs"
             tag="BLOG"
             image="/images/Saas1.jpg"
-            link="/insights/gcc"
+            link="https://example.com/news1"
             description="GCCs are evolving into innovation engines for global enterprises."
           />
 
@@ -86,7 +86,7 @@ export default function LatestThinking() {
             title="Fortifying Cybersecurity in Enterprise AI"
             tag="BLOG"
             image="/images/Saas1.jpg"
-            link="/insights/cybersecurity"
+            link="https://example.com/news1"
             description="Enterprises must rethink security strategies in the AI-first era."
           />
 
