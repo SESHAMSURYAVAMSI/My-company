@@ -13,7 +13,7 @@ export default function Transform() {
         <div className="max-w-xl">
           {/* TITLE */}
           <h2 className="text-4xl md:text-5xl font-bold leading-tight mb-4">
-            <span className="text-red-600">Scale at Speed™</span>
+            <span className="text-red-600">Scale at Speed</span>
             <br />
             <span className="text-gray-900 font-medium">with SaaScraft</span>
           </h2>
