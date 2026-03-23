@@ -30,7 +30,7 @@ export default function LatestThinking() {
         </div>
 
         {/* GRID */}
-        <div className="grid grid-cols-3 gap-6 auto-rows-[200px]">
+        <div className="grid grid-cols-3 gap-6 auto-rows-[240px]">
 
           <Card
             className="row-span-2"

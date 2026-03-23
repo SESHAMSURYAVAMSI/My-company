@@ -1,71 +1,72 @@
-'use client'
+"use client";
 
-import Image from 'next/image'
-import { useRouter } from 'next/navigation'
+import Image from "next/image";
+import { useRouter } from "next/navigation";
 
 export default function Transform() {
-  const router = useRouter()
+  const router = useRouter();
 
   return (
-    <section className="relative grid md:grid-cols-2 overflow-hidden">
-      
+    <section className="relative grid md:grid-cols-2 h-[420px] overflow-hidden bg-[#f4f1eb]">
       {/* LEFT CONTENT */}
-      <div className="p-16 bg-white relative z-10">
-        <h3 className="text-xl md:text-2xl font-semibold mb-6 leading-snug">
-          Our promise to help enterprises transform at speed
-        </h3>
+      <div className="flex items-center px-10 md:px-20 relative z-10">
+        <div className="max-w-xl">
+          {/* TITLE */}
+          <h2 className="text-4xl md:text-5xl font-bold leading-tight mb-4">
+            <span className="text-red-600">Scale at Speed™</span>
+            <br />
+            <span className="text-gray-900 font-medium">with SaaScraft</span>
+          </h2>
 
-        <div className="flex gap-4">
-          
-          {/* 🔴 PRIMARY BUTTON */}
-          <button
-            onClick={() => router.push('/about')}
-            className="relative overflow-hidden group bg-red-600 text-white px-6 py-3 font-medium rounded-md"
-          >
-            {/* Hover Background */}
-            <span className="absolute inset-0 bg-red-700 translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-in-out"></span>
+          {/* DESCRIPTION */}
+          <p className="text-gray-600 mb-8 leading-relaxed">
+            Our promise to help enterprises across industries transform at speed
+            and bring agility, resilience, and efficiency to their businesses.
+          </p>
 
-            {/* Text */}
-            <span className="relative flex items-center gap-2">
+          {/* BUTTONS */}
+          <div className="flex gap-4">
+            {/* PRIMARY BUTTON */}
+            <button
+              onClick={() => router.push("/about")}
+              className="bg-red-600 text-white px-6 py-3 font-semibold hover:bg-red-700 transition"
+            >
               KNOW MORE
-              <span className="transform group-hover:translate-x-1 transition duration-300">
-                →
-              </span>
-            </span>
-          </button>
+            </button>
 
-          {/* ⚪ SECONDARY BUTTON */}
-          <button
-            onClick={() => router.push('/brand-story')}
-            className="relative overflow-hidden group border border-gray-800 px-6 py-3 font-medium rounded-md"
-          >
-            {/* Hover Background */}
-            <span className="absolute inset-0 bg-gray-900 opacity-0 group-hover:opacity-100 transition duration-300"></span>
-
-            {/* Text */}
-            <span className="relative flex items-center gap-2 text-gray-800 group-hover:text-white transition duration-300">
+            {/* SECONDARY BUTTON */}
+            <button
+              onClick={() => router.push("/brand-story")}
+              className="border border-red-600 text-red-600 px-6 py-3 font-semibold hover:bg-red-600 hover:text-white transition"
+            >
               OUR BRAND STORY
-              <span className="transform group-hover:translate-x-1 transition duration-300">
-                →
-              </span>
-            </span>
-          </button>
-
+            </button>
+          </div>
         </div>
       </div>
 
-      {/* RIGHT IMAGE */}
+      {/* RIGHT IMAGE WITH ANGLED CUT */}
       <div className="relative h-[400px] md:h-auto">
-        <Image
-          src="/images/Saas1.jpg"
-          alt="transform"
-          fill
-          className="object-cover"
-        />
+        <div
+          className="absolute inset-0"
+          style={{
+            clipPath: "polygon(12% 0, 100% 0, 100% 100%, 0% 100%)",
+          }}
+        >
+          <Image
+            src="/images/Saas1.jpg"
+            alt="transform"
+            fill
+            className="object-cover"
+            priority
+          />
+        </div>
       </div>
 
-      {/* DIAGONAL OVERLAY */}
-      <div className="absolute left-0 top-0 w-full h-full bg-white clip-diagonal z-0 pointer-events-none" />
+      {/* SUBTLE BACKGROUND PATTERN */}
+      <div className="absolute inset-0 opacity-10 pointer-events-none">
+        <div className="w-full h-full bg-[linear-gradient(135deg,#000_1px,transparent_1px)] bg-[size:40px_40px]" />
+      </div>
     </section>
-  )
+  );
 }
